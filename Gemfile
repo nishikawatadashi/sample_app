@@ -9,12 +9,12 @@ gem 'jquery-rails', '4.3.1'
 gem 'turbolinks',   '5.0.1'
 gem 'jbuilder',     '2.6.1'
 
-# 開発
 group :development, :test do
   gem 'sqlite3', '1.3.13'
   gem 'byebug',  '9.0.6', platform: :mri
 end
 
+# 開発
 group :development do
   gem 'web-console',           '3.5.1'
   gem 'listen',                '3.0.8'
@@ -22,6 +22,7 @@ group :development do
   gem 'spring-watcher-listen', '2.0.1'
 end
 
+# テスト
 group :test do
   gem 'rails-controller-testing', '1.0.2'
   gem 'minitest-reporters',       '1.1.14'

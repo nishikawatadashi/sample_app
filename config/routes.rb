@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   root 'static_pages#home'
-  get '/help', to: 'static_pages#help'   # static_pages/homeというURL(get)をstatic_pages_controllerのhomeアクションに結びつける
-  get '/about', to: 'static_pages#about'
-  get '/contact', to: 'static_pages#contact'
+  get '/help', to:'static_pages#help'   # static_pages/homeというURL(get)をstatic_pages_controllerのhomeアクションに結びつける
+  get '/about', to:'static_pages#about'
+  get '/contact', to:'static_pages#contact'
 end
